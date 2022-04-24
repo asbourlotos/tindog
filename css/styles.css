@@ -1,0 +1,89 @@
+/*---------- ELEMENT Selectors ----------*/
+
+body {
+    font-family: Montserrat;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.25rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* CONTAINER */
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+/* NAVBAR */
+
+.navbar {
+    padding:0 0 4.5rem 0;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+}
+
+/* TITLE SECTION */
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+    overflow: hidden;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.iphone-mockup {
+    transform: rotate(25deg);
+    width: 60%;
+    margin-bottom: -45%;
+}
+
+/* FEATURES SECTION */
+
+#features {
+    text-align: center;
+    margin: 75px 0;
+}
+
+.features-icons {
+    color: #ef8172;
+    font-size: 3rem;
+    padding-bottom: 15px;
+}
+
+.features-descriptions {
+    color: #8f8f8f;
+    font-size: 1rem;
+}
+
+.features-icons:hover {
+    color: #ff4c68;
+}
+
+.features-box {
+    padding: 25px;
+}
