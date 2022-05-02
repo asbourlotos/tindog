@@ -26,7 +26,7 @@ h3 {
 /* CONTAINER */
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 5%;
 }
 
 /* NAVBAR */
@@ -65,13 +65,20 @@ h3 {
 .iphone-mockup {
     transform: rotate(25deg);
     width: 60%;
+    position: absolute;
+    right: 30%;
 }
 
+.img-positioning {
+    position: relative;
+}
 /* FEATURES SECTION */
 
 #features {
+    padding: 7% 5% 2.5%;
     text-align: center;
-    margin: 75px 0;
+    background-color: #fff;
+    position: relative;
 }
 
 .features-icons {
@@ -90,7 +97,7 @@ h3 {
 }
 
 .features-box {
-    padding: 25px;
+    padding: 0 4.5%;
 }
 
 /* TESTIMONIALS SECTION */
