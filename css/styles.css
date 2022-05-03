@@ -1,32 +1,31 @@
 /*---------- ELEMENT Selectors ----------*/
 
 body {
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* HEADINGS */
+
+.big-heading {
     font-weight: 900;
     font-size: 3.25rem;
     line-height: 1.5;
 }
 
-h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
-    font-weight: bold;
-    line-height: 1.5;
-}
-
-h3 {
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
 /* CONTAINER */
 
 .container-fluid {
-    padding: 3% 15% 5%;
+    padding: 7% 15%;
 }
 
 /* NAVBAR */
@@ -56,6 +55,11 @@ h3 {
 #title {
     background-color: #ff4c68;
     color: #fff;
+    text-align: left;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
 }
 
 .download-button {
@@ -72,11 +76,10 @@ h3 {
 .img-positioning {
     position: relative;
 }
+
 /* FEATURES SECTION */
 
 #features {
-    padding: 7% 5% 2.5%;
-    text-align: center;
     background-color: #fff;
     position: relative;
 }
@@ -100,16 +103,16 @@ h3 {
     padding: 0 4.5%;
 }
 
+.feaure-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
 /* TESTIMONIALS SECTION */
 
 #testimonials {
-    text-align: center;
     background-color: #ef8172;
     color: #fff;
-}
-
-.carousel-item {
-    padding: 7% 15%;
 }
 
 .testimonial-image {
@@ -118,11 +121,15 @@ h3 {
     margin: 20px;
 }
 
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5
+}
+
 /* PRESS SECTION */
 
 #press {
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -135,33 +142,32 @@ h3 {
 
 #pricing {
     padding: 100px;
-    text-align: center;
 }
 
 .pricing-column {
     padding: 3% 2%;
 }
 
-/* CALL TO ACTION SECTION */
-#cta {
-    background-color: #ff4c68;
-    color: #fff;
-    text-align: center;
-    padding-top: 50px;
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
 }
 
-.title-text-style {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    font-size: 3.25rem;
+.section-heading {
+    font-size: 3rem;
     line-height: 1.5;
 }
 
-/* FOOTER SECTION */
+/* CALL TO ACTION SECTION */
 
-#footer {
-    text-align: center;
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    padding-top: 50px;
 }
+
+/* FOOTER SECTION */
 
 .social-style {
     padding: 50px 15px 20px;
