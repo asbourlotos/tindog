@@ -141,3 +141,16 @@ h3 {
 .pricing-column {
     padding: 3% 2%;
 }
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1028px) {
+    .iphone-mockup {
+        transform: rotate(0);
+        position: static;
+    }
+
+    #title {
+        text-align: center;
+    }
+}
